@@ -25,6 +25,12 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
         System.out.println("nambahin sout");
+        
+        
+    }
+    @FXML
+    private void handleButtonBuku(ActionEvent e){
+        System.out.println("tambah buku");
     }
     
     @Override
